@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "K12 Project: Spiffy",
-  "description": "This extension makes the K12 page more doable.",
+  "name": "K12",
+  "description": "A rebranding of the K12.com student panel.",
   "version": "0.1",
   "content_scripts": [
     {
