@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "K12 Project: Spiffy",
+  "description": "This extension makes the K12 page more doable.",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://k12.com/*", "*://*.k12.com/*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "grades.js"]
+    }
+  ],
+  "web_accessible_resources": [
+       "images/front-center-promo.png",
+       "images/background.jpg",
+       "images/header.jpg",
+       "images/nav_bg.png",
+       "font/typicons.css",
+       "font/typicons.eot",
+       "font/typicons.svg",
+       "font/typicons.ttf",
+       "font/typicons.woff"
+       
+     ]
+}

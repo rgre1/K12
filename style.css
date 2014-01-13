@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'typicons';
+  src: url("chrome-extension://__MSG_@@extension_id__/font/typicons.eot");
+  src: url("chrome-extension://__MSG_@@extension_id__/font/typicons.eot?#iefix") format('embedded-opentype'),
+       url("chrome-extension://__MSG_@@extension_id__/font/typicons.woff") format('woff'),
+       url("chrome-extension://__MSG_@@extension_id__/font/typicons.ttf") format('truetype'),
+       url("chrome-extension://__MSG_@@extension_id__/font/typicons.svg#typicons") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* The K12.com boy */
+#front-promo-center { background: url(chrome-extension://__MSG_@@extension_id__/images/front-center-promo.png) no-repeat center top !important; }
+body { background: url(chrome-extension://__MSG_@@extension_id__/images/background.jpg) repeat !important; }
+a:hover { color: #0ca2d1 !important; }
+input { outline: none !important; }
+a>span { color: #333; padding-left: 15px !important; }
+h1, h3 { color: #444 !important; }
+	
+div#headerContainer { background: url(chrome-extension://__MSG_@@extension_id__/images/header.jpg) repeat !important; }
+	
+div#feedbackHelpLogout { background: transparent !important; padding-top: 20px !important; text-shadow: 0 1px 1px #222; }
+
+div#feedbackHelpLogout > a:hover { background: url(chrome-extension://__MSG_@@extension_id__/images/nav_bg.png) repeat-x !important; }
+
+div.accessCourseButton { margin-top: -90px !important; }
+
+div#mainContentContainer { 
+	border: 1px solid #d8d8d8 !important; 
+	border-radius: 3px !important; 
+	top: 110px !important; 
+	clear: both !important; 
+	overflow: auto !important; 
+	height:auto !important; 
+	margin-bottom: 40px; 
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); 
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); 
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); }
+		
+div#navigationContainer { 
+	background: #fff; 
+	padding: 15px 0px 15px 0px; 
+	border: 1px solid #d9d9d9; 
+	border-radius: 3px; 
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); }
+
+div#feedbackHelpLogout > a { 
+	color: #f1f5f9 !important; 
+	font-size: 13px !important; 
+	border-radius: 3px 3px 4px 4px !important; 
+	margin-right: -8px !important; 
+	padding: 3px 9px 4px !important; }
+
+table.dataTable { margin-top: 3px; width: 100% !important; border-width:1px !important; border-color: #d8d8d8 !important;  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;}
+table.dataTable td,th { border-color: #d8d8d8 !important;}
+
+
+ul.standAloneNavItems li {
+    background-repeat:no-repeat;
+    width: 230px;
+    height: 40px;
+    border-bottom: 1px solid #f4f4f4;
+    margin: 15px 0px -10px 0px !important;
+}
+ul.standAloneNavItems li:last-child {  
+    border-bottom: none;  
+}
+
+/* Button Normal */
+
+ul.standAloneNavItems li.unselected { background-image: none !important; }
+ul.standAloneNavItems li.unselected a { color: #444 !important; }
+
+/* Button Selected */
+ul.standAloneNavItems li.selected { background-image: none !important; }
+ul.standAloneNavItems li.selected a { color: #00a2ff !important; }
+ul.standAloneNavItems li.selected a[href*="0.31.1"]:before { font-family: 'typicons'; font-style: normal; font-weight: normal; speak: none; display: inline-block; width: 1em; height: 1em; font-size: 1em; text-align: center; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-rendering: optimizeLegibility; margin-right: 35px; content: '\e080'; }
+ul.standAloneNavItems li.selected a[href*="0.33.1.1"]:before { font-family: 'typicons'; font-style: normal; font-weight: normal; speak: none; display: inline-block; width: 1em; height: 1em; font-size: 1em; text-align: center; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-rendering: optimizeLegibility; margin-right: 31px; content: '\e09a'; }
+   
+/* Buton Hover */
+ul.standAloneNavItems li:hover { background-image: none !important; }
+ul.standAloneNavItems li:hover a:hover { color: #00a2ff !important; }
+
+/* This hides or modifys the horrible background images by targeting indivudal HTML elements. */
+div[id^="bodyBackgroundTopRight"] { visibility:hidden !important; }
+div[id^="bodyBackgroundTopLeft"] { visibility:hidden !important; }
+div[id^="bodyBackgroundBottomLeft"] { visibility:hidden !important; } 
+
+div[id^="mainContentTopperLeft"] { display:none !important; } 
+div[id^="mainContentTopperMiddle"] { display:none !important; } 
+div[id^="mainContentTopperRight"] { display:none !important; } 
+div[id^="searchPanelBottomLeft"] { display:none !important; } 
+div[id^="searchPanelBottomMiddle"] { display:none !important; } 
+div[id^="searchPanelBottomRight"] { display:none !important; } 
+div[id^="k12Logo"] { display:none !important; } 
+div[id^="versionString"] { display:none !important; }
+div[id^="conjoinedNavItemsUpdateContainer"] { display:none !important; }
+div[id^="welcomeMessage"] { text-align: center !important; text-shadow: 0 1px 1px #222; color: #f1f5f9 !important; } 
+div[class^="courseDetailBox"] { float:left !important; }
+
+/* Optional Display
+div[style*="clear:left;margin-top:2em;"] { display: none !important;} */
+div[style*="#ce5202"] { padding-right: 0px !important;}
+
+/* Unwanted Pictures */
+img[src$="TVS_home_yourPath_header.gif"] { display: none !important;}
+img[src$="TVS_globalLinkBG_partition.gif"] { visibility:hidden !important; }
+img[src$="logoBig.jpg"] { display: none !important; }
+img[src$="dots.gif"] { display: none !important; }
+img[src$="TVS_kmail_header.gif"] { display: none !important; }
+img[src$="TVS_myCourses_header.gif"] { display: none !important; }
+
+/* Icons  */
+a[href*="0.31.1"]:before { font-family: 'typicons'; font-style: normal; font-weight: normal; speak: none; display: inline-block; width: 1em; height: 1em; font-size: 1em; text-align: center; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-rendering: optimizeLegibility; margin-right: 35px; content: '\e080'; }
+a[href*="0.33.1.1"]:before { font-family: 'typicons'; font-style: normal; font-weight: normal; speak: none; display: inline-block; width: 1em; height: 1em; font-size: 1em; text-align: center; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-rendering: optimizeLegibility; margin-right: 31px; content: '\e09a'; }
+a[href*="0.35.1.1"]:before { font-family: 'typicons'; font-style: normal; font-weight: normal; speak: none; display: inline-block; width: 1em; height: 1em; font-size: 1em; text-align: center; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-rendering: optimizeLegibility; margin-right: 35px; content: '\e07c'; }
+a[href*="0.37.1.1"]:before { font-family: 'typicons'; font-style: normal; font-weight: normal; speak: none; display: inline-block; width: 1em; height: 1em; font-size: 1em; text-align: center; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-rendering: optimizeLegibility; margin-right: 35px; content: '\e113'; }
+
+/* Keeps Address Private in My Account */
+div[class^="addressDisplay"]{ display:none !important; }
+p[class^="addressHead"]{ display:none !important; }
+
