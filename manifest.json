@@ -5,7 +5,7 @@
   "version": "0.1",
   "content_scripts": [
     {
-      "matches": ["*://k12.com/*", "*://*.k12.com/*"],
+      "matches": ["*://*.k12.com/*"],
       "css": ["style.css"],
       "js": ["grades.js"]
     }
