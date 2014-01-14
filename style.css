@@ -9,7 +9,7 @@
   font-style: normal;
 }
 /* The K12.com boy replaced with Harlan */
-#front-promo-center { background: url(chrome-extension://__MSG_@@extension_id__/images/front-center-promo.png) no-repeat center top !important; }
+#front-promo-center { background: url(chrome-extension://__MSG_@@extension_id__/images/front-center-promo.png) repeat center top !important; }
 
 /* The elements will get confused due to the permissions of the manifest. */
 body { background: url(chrome-extension://__MSG_@@extension_id__/images/background.jpg) repeat !important; }
