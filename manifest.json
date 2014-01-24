@@ -7,7 +7,7 @@
     {
       "matches": ["*://*.k12.com/*"],
       "css": ["style.css"],
-      "js": ["grades.js"]
+      "js": ["jquery.js","grades.js"]
     }
   ],
   "web_accessible_resources": [
